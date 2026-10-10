@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/* 全体設定：フォント・行間・背景色 */
+body {
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+    color: #2c3e50;
+    background-color: #f8fafc;
+    margin: 40px auto;
+    max-width: 820px;
+    padding: 0 20px;
+    line-height: 1.8;
+}
+
+/* 見出し（h1）：フォント装飾・文字色・センタリング・下線 */
+body h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ea580c;
+    text-align: center;
+    border-bottom: 3px solid #ea580c;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+/* 担当者・パラグラフ */
+p.author {
+    font-size: 14px;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+
+p.content {
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+/* キーワード強調用のクラス装飾 */
+.key {
+    color: #ffffff;
+    background-color: #2563eb;
+    font-size: 1.05em;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/* 画像の共通装飾（サンプルのganba.pngから変更・枠線・角丸・影） */
+body p img {
+    display: block;
+    max-width: 260px;
+    height: auto;
+    border: 6px dotted #10b981;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    margin: 20px 0;
+}
+
+/* もどるリンク */
+p.back a {
+    display: inline-block;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+p.back a:hover {
+    text-decoration: underline;
+}
